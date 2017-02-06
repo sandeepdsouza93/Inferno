@@ -18,6 +18,7 @@ $> make schedule_inferno
 $> ./schedule_inferno <number_cores> <simulation_cycles> <sleep_time> <taskset_count> <esrhsp_flag> <global_syncsleep_flag> \
                       <phasing_flag> <result_file> <taskset_generation_flag> <logging_flag>
 ```
+```
 where, <number_cores> is the number of cores (should be the same as the cores in the floorplan)
        <simulation_cycles> is the number of scheduling cycles or steps to simulate
        <sleep_time> corresponds to the minimum round-trip time to transition the processor into deep sleep
@@ -28,3 +29,4 @@ where, <number_cores> is the number of cores (should be the same as the cores in
        <result_file> Filename to dump output simulation statistics into
        <taskset_generation_flag> Set to 1 to use default taskset generator, 0 to read tasksets from files
        <logging_flag> Generate power and thermal trace of the simulation (set to 1 to enable, 0 to disable)
+```
